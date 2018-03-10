@@ -10,7 +10,7 @@
         <div class="wrapper">
             <!-- Page Content -->
         </div>
-        <?php include '../inc/about.php'; ?>
+        <?php include '../inc/modal.php'; ?>
         <script src="../assets/js/global.js"></script>
     </body>
 </html>
