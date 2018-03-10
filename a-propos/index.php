@@ -69,6 +69,7 @@
             </div>
         </main>
         <?php include '../inc/modal.php'; ?>
-        <script src="../assets/js/script.js"></script>
+        <script src="../assets/js/global.js"></script>
+        <script src="../assets/js/about.js"></script>
     </body>
 </html>

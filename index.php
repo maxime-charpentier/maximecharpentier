@@ -81,6 +81,7 @@
             </main>
         </div>
         <?php include 'inc/modal.php'; ?>
+        <script src="assets/js/global.js"></script>
         <script src="assets/js/script.js"></script>
     </body>
 </html>

@@ -11,6 +11,6 @@
             <!-- Page Content -->
         </div>
         <?php include '../inc/about.php'; ?>
-        <script src="../assets/js/script.js"></script>
+        <script src="../assets/js/global.js"></script>
     </body>
 </html>

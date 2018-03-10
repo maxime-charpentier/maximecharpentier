@@ -1,19 +1,4 @@
 /*
-Allow burger icon animation to cross on click
- */
-document.querySelector('.header__button').addEventListener('click', function () {
-    if (document.querySelector('.header__button').classList.contains('header__button--active')) {
-        document.querySelector('.header__button').classList.remove('header__button--active');
-        document.querySelector('.modal').classList.remove('modal--active');
-        document.querySelector('.modal__items').classList.remove('modal__items--active');
-    } else {
-        document.querySelector('.header__button').classList.add('header__button--active');
-        document.querySelector('.modal').classList.add('modal--active');
-        document.querySelector('.modal__items').classList.add('modal__items--active');
-    }
-});
-
-/*
 Fix bug with display change, resize and overflow
  */
 window.addEventListener('resize', function() {
@@ -34,7 +19,10 @@ window.addEventListener('resize', function() {
     }
 });
 
-// Allow to switch displays
+/*
+Allow to switch displays
+*/
+
 if (document.querySelector('body').classList.contains('body--projects')) {
     document.querySelector('.display__button--slider').addEventListener('click', function() {
         if (window.innerWidth < 1025) {
@@ -57,14 +45,6 @@ if (document.querySelector('body').classList.contains('body--projects')) {
         document.querySelector('.display__icon--grid').classList.add('display__icon--active');
     });
 }
-
-// Allow the header to stay on top of the body while scrolling
-
-window.addEventListener('scroll', function() {
-    document.querySelector('.header').style.position = 'absolute';
-    document.querySelector('.header').style.top = '0px';
-    document.querySelector('.header').style.left = '0px';
-});
 
 // Project animations on mouse hover (hover all but me)
 
@@ -92,21 +72,6 @@ for (let a = 0; a < worksGrid.length; a++) {
         }
     });
 }
-
-// Maxime Charpentier hover
-
-document.querySelector('.brand').addEventListener('mouseover', function() {
-    if (window.innerWidth > 1025) {
-        document.querySelector('.brand__link').classList.add('brand__link--active');
-        document.querySelector('.brand__link__bold').classList.add('brand__link__bold--active');
-    }
-});
-document.querySelector('.brand').addEventListener('mouseout', function() {
-    if (window.innerWidth > 1025) {
-        document.querySelector('.brand__link').classList.remove('brand__link--active');
-        document.querySelector('.brand__link__bold').classList.remove('brand__link__bold--active');
-    }
-});
 
 // Project title hover
 
@@ -146,28 +111,6 @@ for (let j = 0; j < buttons.length; j++) {
             setTimeout(function() {
                 buttonsBold[j].classList.remove('work__button__bold--active');
                 buttonsBold[j].classList.remove('work__button__bold--active2');
-            }, 700);
-        }
-    });
-}
-
-// Social links hover
-
-var socialItems = document.querySelectorAll('.social__item');
-var socialLinks = document.querySelectorAll('.social__link');
-
-for (let x = 0; x < socialItems.length; x++) {
-    socialItems[x].addEventListener('mouseover', function () {
-        if (window.innerWidth > 1025) {
-            socialLinks[x].style.transition = '3s ease';
-            socialLinks[x].classList.add('social__link--active');
-            setTimeout(function() {
-                socialLinks[x].classList.add('social__link--active2');
-            }, 300);
-            socialLinks[x].style.transition = '0s';
-            setTimeout(function() {
-                socialLinks[x].classList.remove('social__link--active');
-                socialLinks[x].classList.remove('social__link--active2');
             }, 700);
         }
     });
