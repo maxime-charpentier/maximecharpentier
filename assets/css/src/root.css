@@ -1,0 +1,35 @@
+:root {
+    --fontSansSerif: 'Roboto';
+    --fontSerif: 'Playfair Display';
+    --colorPrimaryOne: #000000;
+    --colorPrimaryTwo: #3B3B3B;
+    --colorPrimaryThree: #424242;
+    --colorPrimaryFour: #757575;
+    --colorSecondaryOne: #FFFFFF;
+    --colorSecondaryTwo: #F5F5F5;
+    --colorSecondaryThree: #EEEEEE;
+    --colorSecondaryFour: #E0E0E0;
+    --colorSecondaryFive: #BDBDBD;
+    --colorAccentOne: #3167FD;
+    --wrapperPadding: 36px;
+    --workSliderHeight: calc(100vh - ((48px + 86px + 36px) * 2));
+}
+*,
+*:before,
+*:after { box-sizing: border-box; }
+body {
+    margin: 0px;
+    background-color: var(--colorSecondaryOne);
+    counter-reset: work;
+    overflow: hidden;
+}
+@media (min-width: 1025px) {
+    body {
+        overflow: scroll;
+    }
+}
+.wrapper {
+    max-width: calc(1080px + (var(--wrapperPadding) * 2));
+    margin: auto;
+    padding: var(--wrapperPadding) var(--wrapperPadding);
+}

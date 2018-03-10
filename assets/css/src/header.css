@@ -1,0 +1,116 @@
+.header {
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+}
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: calc(1080px + (36px * 2));
+    margin: 0px auto;
+    padding: 36px;
+}
+.brand {
+    margin: 0px;
+    font-family: var(--fontSansSerif), sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.brand__link {
+    color: var(--colorPrimaryThree);
+    text-decoration: none;
+    transition: .3s;
+}
+.brand__link--active {
+    color: var(--colorAccentOne);
+}
+.brand__link__bold {
+    font-weight: 700;
+    color: var(--colorPrimaryOne);
+    transition: .3s;
+}
+.brand__link__bold--active {
+    color: var(--colorAccentOne);
+}
+.header__button {
+    position: relative;
+    width: 40px;
+    height: 14px;
+    padding: 0px;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: .3s;
+}
+.header__button--active {
+    height: 18px;
+    transition: .3s;
+}
+.header__button::before {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 2px;
+    content: '';
+    background-color: var(--colorPrimaryOne);
+    transform-origin: right;
+    transition: .3s;
+}
+.header__button--active::before {
+    width: 24px;
+    transform: rotate(-45deg);
+}
+.header__button--hover::before {
+    background-color: var(--colorAccentOne);
+}
+.header__button::after {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 24px;
+    height: 2px;
+    content: '';
+    background-color: var(--colorPrimaryOne);
+    transform-origin: right;
+    transition: .3s;
+}
+.header__button--active::after {
+    transform: rotate(45deg);
+}
+.header__button--hover::after {
+    background-color: var(--colorAccentOne);
+}
+.menu {
+    display: none;
+}
+@media (min-width: 1025px) {
+    .header__button {
+        display: none;
+    }
+    .menu {
+        display: flex;
+        margin: 0px;
+        padding: 0px;
+    }
+    .menu__item {
+        margin-right: 24px;
+        font-family: var(--fontSansSerif), sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        list-style: none;
+    }
+    .menu__item:last-child {
+        margin-right: 0px;
+    }
+    .menu__link {
+        color: var(--colorPrimaryOne);
+        text-decoration: none;
+        transition: .3s;
+    }
+    .menu__link:hover {
+        color: var(--colorAccentOne);
+    }
+}
