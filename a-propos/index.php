@@ -71,5 +71,6 @@
         <?php include '../inc/modal.php'; ?>
         <script src="../assets/js/global.js"></script>
         <script src="../assets/js/about.js"></script>
+        <?php include 'inc/analytics.php'; ?>
     </body>
 </html>
