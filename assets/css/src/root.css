@@ -28,8 +28,3 @@ body {
         overflow: scroll;
     }
 }
-.wrapper {
-    max-width: calc(1080px + (var(--wrapperPadding) * 2));
-    margin: auto;
-    padding: var(--wrapperPadding) var(--wrapperPadding);
-}

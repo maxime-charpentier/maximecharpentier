@@ -1,0 +1,22 @@
+.wrapper {
+    max-width: calc(1080px + (var(--wrapperPadding) * 2));
+    margin: auto;
+    padding: var(--wrapperPadding) var(--wrapperPadding);
+}
+.social {
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 0px -16px;
+    padding: 0px;
+    list-style: none;
+}
+.social__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+.social__icon {
+    width: 20px;
+    height: 20px;
+}

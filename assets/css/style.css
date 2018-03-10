@@ -1,8 +1,10 @@
 @charset 'utf-8';
 @import 'src/root.css';
+@import 'src/global.css';
 @import 'src/header.css';
 @import 'src/display.css';
 @import 'src/grid.css';
 @import 'src/slider.css';
 @import 'src/about.css';
-@import 'src/modal.css'
+@import 'src/modal.css';
+@import 'src/nespresso.css';
