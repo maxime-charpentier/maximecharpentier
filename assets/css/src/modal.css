@@ -9,7 +9,7 @@
     flex-direction: column;
     justify-content: center;
     padding: 36px;
-    background-color: var(--colorSecondaryTwo);
+    background-color: var(--colorSecondaryThree);
     opacity: 0;
     transform: translateY(-150vh);
     transition: .8s ease;
@@ -30,21 +30,16 @@
 .modal__line {
     z-index: -1;
     width: 1px;
-    background-color: var(--colorSecondaryFour);
+    background-color: var(--colorSecondaryFive);
 }
 .modal__line:nth-child(1) {
     display: none;
 }
 .modal__items {
-    margin: -64px 0px 40px 0px;
+    margin: 0px 0px 40px 0px;
     padding: 0px;
     list-style: none;
-    opacity: 0;
     transition: 1.6s ease;
-}
-.modal__items--active {
-    margin-top: 0px;
-    opacity: 1;
 }
 .modal__item {
     margin-bottom: 8px;

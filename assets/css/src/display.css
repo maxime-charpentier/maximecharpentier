@@ -15,14 +15,14 @@
     cursor: pointer;
 }
 .display__icon {
-    fill: var(--colorSecondaryThree);
+    fill: var(--colorSecondaryFour);
     transition: .3s;
 }
 .display__icon:hover {
-    fill: var(--colorSecondaryFive);
+    fill: var(--colorSecondarySix);
 }
 .display__icon--active {
-    fill: var(--colorSecondaryFive);
+    fill: var(--colorSecondarySix);
 }
 
 @media (min-width: 575px) {

@@ -6,10 +6,11 @@
     --colorPrimaryThree: #424242;
     --colorPrimaryFour: #757575;
     --colorSecondaryOne: #FFFFFF;
-    --colorSecondaryTwo: #F5F5F5;
-    --colorSecondaryThree: #EEEEEE;
-    --colorSecondaryFour: #E0E0E0;
-    --colorSecondaryFive: #BDBDBD;
+    --colorSecondaryTwo: #FAFAFA;
+    --colorSecondaryThree: #F5F5F5;
+    --colorSecondaryFour: #EEEEEE;
+    --colorSecondaryFive: #E0E0E0;
+    --colorSecondarySix: #BDBDBD;
     --colorAccentOne: #3167FD;
     --wrapperPadding: 36px;
     --workSliderHeight: calc(100vh - ((48px + 86px + 36px) * 2));
@@ -20,11 +21,18 @@
 body {
     margin: 0px;
     background-color: var(--colorSecondaryOne);
+}
+.body--projects {
     counter-reset: work;
     overflow: hidden;
 }
+.body--project {
+    counter-reset: section;
+    counter-reset: index;
+    overflow: scroll;
+}
 @media (min-width: 1025px) {
-    body {
+    .body--projects {
         overflow: scroll;
     }
 }

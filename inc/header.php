@@ -6,13 +6,15 @@
                 <button class="header__button"></button>
                 <ul class="menu">
                     <li class="menu__item">
-                        <a href="index.php" class="menu__link">Projets</a>
+                        <a class="menu__link" href="index.php">Projets</a>
                     </li>
+                    <!--
                     <li class="menu__item">
-                        <a href="../labs/index.php" class="menu__link">Labs</a>
+                        <a class="menu__link" href="../labs/index.php">Labs</a>
                     </li>
+                    -->
                     <li class="menu__item">
-                        <a href="../a-propos/index.php" class="menu__link">A propos</a>
+                        <a class="menu__link" href="../a-propos/index.php">A propos</a>
                     </li>
                 </ul>
             </div>

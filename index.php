@@ -65,7 +65,7 @@
                             <h2 class="work__title" itemprop="headline" role="heading">
                                 <a class="work__link" href="nextgen/index.php" rel="bookmark" itemprop="url" role="link">NextGen</a>
                             </h2>
-                            <p class="work__description">Intégration entièrement responsive d'un site d'entreprise type.</p>
+                            <p class="work__description">Intégration entièrement responsive d'un site d'agence type.</p>
                             <a class="work__button" href="nextgen/index.php" rel="bookmark" itemprop="url" role="link">explore <b class="work__button__bold">project</b></a>
                         </div>
                     </article>

@@ -40,10 +40,7 @@
                     </li>
                 </ul>
                 <div class="about__container">
-                    <div class="about__images">
-                        <img class="about__image" src="../assets/img/profil.jpg" alt="Picture of Maxime Charpentier"/>
-                        <img class="about__image" src="../assets/img/profil2.jpg" alt="Picture of Maxime Charpentier"/>
-                    </div>
+                    <img class="about__image" src="../assets/img/profil.jpg" alt="Picture of Maxime Charpentier"/>
                     <div class="about__content">
                         <p class="about__text">Je m'appelle Maxime Charpentier, je suis un <strong class="about__text__highlight">développeur</strong> de 20 ans situé à Paris. Je suis actuellement étudiant à HETIC et <strong class="about__text__highlight">passionné</strong> par le développement front-end.</p>
                         <p class="about__text">J'affectionne particulièrement le langage JavaScript qui me permet d'exploiter chaque jour (et nuit) ma créativité à coup de lignes et de lignes de code.</p>
@@ -71,6 +68,6 @@
         <?php include '../inc/modal.php'; ?>
         <script src="../assets/js/global.js"></script>
         <script src="../assets/js/about.js"></script>
-        <?php include 'inc/analytics.php'; ?>
+        <?php include '../inc/analytics.php'; ?>
     </body>
 </html>

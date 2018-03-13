@@ -2,15 +2,16 @@
 Allow burger icon animation to cross and modal to appear on click
  */
 
-document.querySelector('.header__button').addEventListener('click', function () {
-    if (document.querySelector('.header__button').classList.contains('header__button--active')) {
-        document.querySelector('.header__button').classList.remove('header__button--active');
-        document.querySelector('.modal').classList.remove('modal--active');
-        document.querySelector('.modal__items').classList.remove('modal__items--active');
+var headerButton = document.querySelector('.header__button');
+var modal = document.querySelector('.modal');
+
+headerButton.addEventListener('click', function () {
+    if (headerButton.classList.contains('header__button--active')) {
+        headerButton.classList.remove('header__button--active');
+        modal.classList.remove('modal--active');
     } else {
-        document.querySelector('.header__button').classList.add('header__button--active');
-        document.querySelector('.modal').classList.add('modal--active');
-        document.querySelector('.modal__items').classList.add('modal__items--active');
+        headerButton.classList.add('header__button--active');
+        modal.classList.add('modal--active');
     }
 });
 
@@ -18,25 +19,31 @@ document.querySelector('.header__button').addEventListener('click', function () 
 Allow the header to stay on top of the body while scrolling
  */
 
+var header = document.querySelector('.header');
+
 window.addEventListener('scroll', function() {
-    document.querySelector('.header').style.position = 'absolute';
-    document.querySelector('.header').style.top = '0px';
-    document.querySelector('.header').style.left = '0px';
+    header.style.position = 'absolute';
+    header.style.top = '0px';
+    header.style.left = '0px';
 });
 
 /*
 Maxime Charpentier hover
  */
 
-document.querySelector('.brand').addEventListener('mouseover', function() {
+var brand = document.querySelector('.brand');
+var brandLink = document.querySelector('.brand__link');
+var brandLinkBold = document.querySelector('.brand__link__bold');
+
+brand.addEventListener('mouseover', function() {
     if (window.innerWidth > 1025) {
-        document.querySelector('.brand__link').classList.add('brand__link--active');
-        document.querySelector('.brand__link__bold').classList.add('brand__link__bold--active');
+        brandLink.classList.add('brand__link--active');
+        brandLinkBold.classList.add('brand__link__bold--active');
     }
 });
-document.querySelector('.brand').addEventListener('mouseout', function() {
+brand.addEventListener('mouseout', function() {
     if (window.innerWidth > 1025) {
-        document.querySelector('.brand__link').classList.remove('brand__link--active');
-        document.querySelector('.brand__link__bold').classList.remove('brand__link__bold--active');
+        brandLink.classList.remove('brand__link--active');
+        brandLinkBold.classList.remove('brand__link__bold--active');
     }
 });
