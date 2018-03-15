@@ -98,11 +98,10 @@
     background-color: var(--colorSecondaryFour);
     border: none;
     border-radius: 50%;
-    cursor: pointer;
     outline: none;
     transition: .3s;
 }
-.works--slider .nav__button:hover {
+.works--slider .nav__button--active {
     background-color: var(--colorSecondarySix);
 }
 
@@ -258,7 +257,10 @@
         right: 36px;
         margin: 0px;
     }
-    .works--slider .nav__button--active {
+    .works--slider .nav__button {
+        cursor: pointer;
+    }
+    .works--slider .nav__button:hover {
         background-color: var(--colorSecondarySix);
     }
     .works--slider .nav__wrapper {

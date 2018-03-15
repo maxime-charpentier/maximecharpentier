@@ -113,4 +113,7 @@
     .menu__link:hover {
         color: var(--colorAccentOne);
     }
+    .menu__link:focus {
+        color: var(--colorAccentOne);
+    }
 }
