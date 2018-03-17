@@ -25,6 +25,9 @@
 .brand__link--active {
     color: var(--colorAccentOne);
 }
+.brand__link--project {
+    color: var(--colorSecondaryThree);
+}
 .brand__link__bold {
     font-weight: 700;
     color: var(--colorPrimaryOne);
@@ -32,6 +35,9 @@
 }
 .brand__link__bold--active {
     color: var(--colorAccentOne);
+}
+.brand__link__bold--project {
+    color: var(--colorSecondaryOne);
 }
 .header__button {
     position: relative;
@@ -63,6 +69,9 @@
     width: 24px;
     transform: rotate(-45deg);
 }
+.header__button--project::before {
+    background-color: var(--colorSecondaryOne);
+}
 .header__button--hover::before {
     background-color: var(--colorAccentOne);
 }
@@ -79,6 +88,9 @@
 }
 .header__button--active::after {
     transform: rotate(45deg);
+}
+.header__button--project::after {
+    background-color: var(--colorSecondaryOne);
 }
 .header__button--hover::after {
     background-color: var(--colorAccentOne);
@@ -109,6 +121,9 @@
         color: var(--colorPrimaryOne);
         text-decoration: none;
         transition: .3s;
+    }
+    .menu__link--project {
+        color: var(--colorSecondaryOne);
     }
     .menu__link:hover {
         color: var(--colorAccentOne);
