@@ -1,9 +1,19 @@
 /*
-Social links hover
+Variables
  */
+
 
 var aboutItem = document.querySelectorAll('.about__item');
 var aboutLink = document.querySelectorAll('.about__link');
+
+/*
+Code
+ */
+
+
+/*
+Social link hover
+ */
 
 for (let x = 0; x < aboutItem.length; x++) {
     aboutItem[x].addEventListener('mouseover', function () {

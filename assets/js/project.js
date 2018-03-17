@@ -1,5 +1,5 @@
 /*
-Social links hover
+Social link hover
  */
 
 var sectionLink = document.querySelector('.section__link');
