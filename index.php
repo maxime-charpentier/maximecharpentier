@@ -72,7 +72,7 @@
                 </div>
                 <nav class="nav">
                     <div class="nav__wrapper">
-                        <button class="nav__button" role="button"></button>
+                        <button class="nav__button nav__button--active" role="button"></button>
                         <button class="nav__button" role="button"></button>
                         <button class="nav__button" role="button"></button>
                         <button class="nav__button" role="button"></button>
