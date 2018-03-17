@@ -66,5 +66,9 @@ for (var i = 0; i < modalLink.length; i++) {
         modalLink[0].classList.remove('modal__link--active');
         modalLink[1].classList.add('modal__link--active');
     }
+    else {
+        modalLink[0].classList.remove('modal__link--active');
+        modalLink[1].classList.remove('modal__link--active');
+    }
 }
 
