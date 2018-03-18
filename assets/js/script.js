@@ -194,19 +194,19 @@ var workHeight = document.querySelector('.work').offsetHeight + 170;
 for (let y = 0; y < navButton.length; y++) {
     window.addEventListener('scroll', function() {
         if (window.innerWidth > 1025) {
-            if (window.scrollY > workHeight) {
+            if (window.scrollY >= workHeight) {
                 navButton[0].classList.remove('nav__button--active');
                 navButton[1].classList.add('nav__button--active');
             }
-            if (window.scrollY > workHeight * 2) {
+            if (window.scrollY >= workHeight * 2) {
                 navButton[1].classList.remove('nav__button--active');
                 navButton[2].classList.add('nav__button--active');
             }
-            if (window.scrollY > workHeight * 3) {
+            if (window.scrollY >= workHeight * 3) {
                 navButton[2].classList.remove('nav__button--active');
                 navButton[3].classList.add('nav__button--active');
             }
-            if (window.scrollY > workHeight * 4) {
+            if (window.scrollY >= workHeight * 4) {
                 navButton[3].classList.remove('nav__button--active');
                 navButton[4].classList.add('nav__button--active');
             }
@@ -286,3 +286,38 @@ worksContainer.addEventListener('touchend', throttle(function(event) {
 window.addEventListener('resize', function() {
     resetSlider();
 });
+
+/*
+(Slider) Nav button anchor scroll on click
+ */
+
+for (var i = 0; i < navButton.length; i++) {
+    navButton[0].addEventListener('click', function() {
+        if (window.innerWidth > 1025) {
+            work[0].scrollIntoView({
+                behavior: 'smooth',
+            });
+        }
+    });
+    navButton[1].addEventListener('click', function() {
+        if (window.innerWidth > 1025) {
+            work[1].scrollIntoView({
+                behavior: 'smooth',
+            });
+        }
+    });
+    navButton[2].addEventListener('click', function() {
+        if (window.innerWidth > 1025) {
+            work[2].scrollIntoView({
+                behavior: 'smooth',
+            });
+        }
+    });
+    navButton[3].addEventListener('click', function() {
+        if (window.innerWidth > 1025) {
+            work[3].scrollIntoView({
+                behavior: 'smooth',
+            });
+        }
+    });
+}

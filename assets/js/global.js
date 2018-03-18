@@ -91,9 +91,10 @@ Brand hover
 
 brand.addEventListener('mouseover', function() {
     if (window.innerWidth > 1025) {
-        if (body.classList.contains('body--project'))
+        if (body.classList.contains('body--project')) {
             brandLink.classList.remove('brand__link--project');
             brandLinkBold.classList.remove('brand__link__bold--project');
+        }
         brandLink.classList.add('brand__link--active');
         brandLinkBold.classList.add('brand__link__bold--active');
     }
@@ -102,9 +103,10 @@ brand.addEventListener('mouseout', function() {
     if (window.innerWidth > 1025) {
         brandLink.classList.remove('brand__link--active');
         brandLinkBold.classList.remove('brand__link__bold--active');
-        if (body.classList.contains('body--project'))
+        if (body.classList.contains('body--project')) {
             brandLink.classList.add('brand__link--project');
             brandLinkBold.classList.add('brand__link__bold--project');
+        }
     }
 });
 
