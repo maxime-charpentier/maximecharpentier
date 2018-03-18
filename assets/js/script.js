@@ -274,6 +274,10 @@ worksContainer.addEventListener('touchend', throttle(function(event) {
         if (works.classList.contains('works--slider')) {
             touchendX = event.changedTouches[0].screenX;
             handleGesture();
+            for (var i = 0; i < navButton.length; i++) {
+                navButton[i].classList.remove('nav__button--active');
+            }
+            navButton[counter].classList.add('nav__button--active');
             worksContainer.style.transform = 'translate(-' + counter * 100 + 'vw)';
         }
     }
