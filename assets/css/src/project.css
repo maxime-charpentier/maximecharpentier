@@ -133,6 +133,10 @@
     border: none;
     outline: none;
     cursor: pointer;
+    transition: .3s;
+}
+.section__button:hover {
+    color: var(--colorAccentOne);
 }
 .section__button::before {
     color: var(--colorSecondarySix);
@@ -238,6 +242,9 @@
     margin: 56px 0px 48px 0px;
     width: 100%;
     height: auto;
+}
+.section__image {
+    box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, .06);
 }
 .section__subtitle {
     display: flex;
