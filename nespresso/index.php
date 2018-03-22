@@ -22,10 +22,18 @@
         <section class="section section--summary">
             <div class="section__wrapper">
                 <ul class="section__indexes">
-                    <li class="section__index">Ton adopté</li>
-                    <li class="section__index">Objectifs</li>
-                    <li class="section__index">Analyse du site</li>
-                    <li class="section__index">Produit final</li>
+                    <li class="section__index">
+                        <button class="section__button">Ton adopté</button>
+                    </li>
+                    <li class="section__index">
+                        <button class="section__button">Objectifs</button>
+                    </li>
+                    <li class="section__index">
+                        <button class="section__button">Analyse du site</button>
+                    </li>
+                    <li class="section__index">
+                        <button class="section__button">Produit final</button>
+                    </li>
                 </ul>
             </div>
         </section>

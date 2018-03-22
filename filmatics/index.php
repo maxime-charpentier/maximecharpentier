@@ -23,12 +23,24 @@
         <section class="section section--summary">
             <div class="section__wrapper">
                 <ul class="section__indexes">
-                    <li class="section__index">Contexte</li>
-                    <li class="section__index">Design</li>
-                    <li class="section__index">Slider</li>
-                    <li class="section__index">Lecteur</li>
-                    <li class="section__index">Filtres</li>
-                    <li class="section__index">Modal</li>
+                    <li class="section__index">
+                        <button class="section__button">Contexte</button>
+                    </li>
+                    <li class="section__index">
+                        <button class="section__button">Design</button>
+                    </li>
+                    <li class="section__index">
+                        <button class="section__button">Slider</button>
+                    </li>
+                    <li class="section__index">
+                        <button class="section__button">Lecteur</button>
+                    </li>
+                    <li class="section__index">
+                        <button class="section__button">Filtres</button>
+                    </li>
+                    <li class="section__index">
+                        <button class="section__button">Modal</button>
+                    </li>
                 </ul>
             </div>
         </section>

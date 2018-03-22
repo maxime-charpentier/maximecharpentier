@@ -119,15 +119,23 @@
 }
 .section__index {
     margin: 0px 0px 36px 0px;
-    font-family: var(--fontSansSerif);
-    font-weight: 400;
-    font-size: 18px;
-    color: var(--colorPrimaryOne);
 }
 .section__index:last-child {
     margin: 0px;
 }
-.section__index::before {
+.section__button {
+    padding: 0px;
+    font-family: var(--fontSansSerif);
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--colorPrimaryOne);
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.section__button::before {
+    color: var(--colorSecondarySix);
     content: '0' counter(index) '. ';
     counter-increment: index;
 }
