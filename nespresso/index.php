@@ -21,10 +21,12 @@
         </section>
         <section class="section section--summary">
             <div class="section__wrapper">
-                <p class="section__index">Ton adopté</p>
-                <p class="section__index">Objectifs</p>
-                <p class="section__index">Analyse du site</p>
-                <p class="section__index">Produit final</p>
+                <ul class="section__indexes">
+                    <li class="section__index">Ton adopté</li>
+                    <li class="section__index">Objectifs</li>
+                    <li class="section__index">Analyse du site</li>
+                    <li class="section__index">Produit final</li>
+                </ul>
             </div>
         </section>
         <section class="section section--counter">
