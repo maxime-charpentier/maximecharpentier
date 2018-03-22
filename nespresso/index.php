@@ -8,7 +8,7 @@
     <body class="body--project" role="document">
         <?php include '../inc/header.php'; ?>
         <section class="section section--heading">
-            <img class="heading__image" src="../assets/img/nespresso.jpg" alt="Photo du projet Nespresso">
+            <img class="heading__image" src="../assets/img/nespresso/nespresso.jpg" alt="Photo du projet Nespresso">
             <h1 class="heading__title">Nespresso</h1>
         </section>
         <section class="section section--intro">

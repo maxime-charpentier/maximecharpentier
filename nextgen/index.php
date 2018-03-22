@@ -8,7 +8,7 @@
     <body class="body--project" role="document">
         <?php include '../inc/header.php'; ?>
         <section class="section section--heading">
-            <img class="heading__image" src="../assets/img/nextgen.jpg" alt="Photo du projet Nespresso">
+            <img class="heading__image" src="../assets/img/thumbnail/nextgen.jpg" alt="Photo du projet NextGen">
             <h1 class="heading__title">NextGen</h1>
         </section>
         <section class="section section--intro section--nextgen">
@@ -16,9 +16,10 @@
                 <time class="section__date">décembre 2017</time>
                 <p class="section__type">Intégration</p>
                 <h2 class="section__name">NextGen</h2>
-                <p class="section__text section__text--nextgen">Ce projet consistait à intégrer une maquette desktop d'un site d'agence type, de manière responsive.</p>
+                <p class="section__text">Ce projet consistait à intégrer une maquette desktop d'un site d'agence type, de manière responsive.</p>
                 <a class="section__link" href="">Voir le site</a>
                 <img class="section__image" src="../assets/img/nextgen/desktop.jpg" alt="Image du site actuel Nespresso">
+                <a class="section__link section__link--bottom" href="">Voir le site</a>
             </div>
         </section>
         <?php include '../inc/modal.php'; ?>

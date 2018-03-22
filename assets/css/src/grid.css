@@ -18,16 +18,16 @@
     border-radius: 2px;
 }
 .work:nth-child(1) .work__thumbnail {
-    background-image: url(../../img/filmatics.jpg);
+    background-image: url(../../img/thumbnail/filmatics.jpg);
 }
 .work:nth-child(2) .work__thumbnail {
-    background-image: url(../../img/spotnride.jpg);
+    background-image: url(../../img/thumbnail/spotnride.jpg);
 }
 .work:nth-child(3) .work__thumbnail {
-    background-image: url(../../img/nespresso.jpg);
+    background-image: url(../../img/thumbnail/nespresso.jpg);
 }
 .work:nth-child(4) .work__thumbnail {
-    background-image: url(../../img/nextgen.jpg);
+    background-image: url(../../img/thumbnail/nextgen.jpg);
 }
 .works--grid .work__content {
     margin: 6px 0px 18px 0px;
