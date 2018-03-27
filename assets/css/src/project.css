@@ -107,10 +107,16 @@
     background-color: var(--colorSecondaryFour);
 }
 .section:nth-child(7) {
-    background-color: var(--colorSecondaryTwo);
+    background-color: var(--colorSecondaryThree);
 }
 .section:nth-child(8) {
+    background-color: var(--colorSecondaryTwo);
+}
+.section:nth-child(9) {
     background-color: var(--colorSecondaryOne);
+}
+.section:nth-child(10) {
+    background-color: var(--colorSecondaryTwo);
 }
 .section__indexes {
     margin: 0px;
@@ -239,12 +245,19 @@
     margin-bottom: 0px;
 }
 .section__image {
+    display: block;
     margin: 56px 0px 48px 0px;
     width: 100%;
     height: auto;
-}
-.section__image {
     box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, .06);
+}
+.section__image--spotnride {
+    max-width: 400px;
+    margin: 56px auto 48px auto;
+    box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, .06);
+}
+.section__image--noshadow {
+    box-shadow: none;
 }
 .section__subtitle {
     display: flex;
