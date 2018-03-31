@@ -124,11 +124,18 @@
                 <img class="section__image" src="../assets/img/nespresso/nespresso_redesign.jpg" alt="Image du site Nespresso redesigné">
             </div>
         </section>
-        <footer class="footer footer--nespresso">
-            <?php include '../inc/social.php'; ?>
+        <footer class="section section--counter section--footer">
+            <div class="section__wrapper">
+                <nav class="section__nav">
+                    <a class="section__link section__link--previous" href="../spotnride/index.php">Projet précédent</a>
+                    <a class="section__link section__link--next" href="../nextgen/index.php">Projet suivant</a>
+                </nav>
+                <?php include '../inc/social.php' ?>
+            </div>
         </footer>
         <?php include '../inc/modal.php'; ?>
         <script src="../assets/js/global.js"></script>
+        <script src="../assets/js/project.js"></script>
         <?php include '../inc/analytics.php'; ?>
     </body>
 </html>

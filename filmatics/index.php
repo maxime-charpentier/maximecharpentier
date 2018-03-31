@@ -98,9 +98,17 @@
                 <h3 class="section__title">Modal</h3>
                 <p class="section__text">Afin de mettre en avant les auteurs et leur créations, nous avons réalisé un fiche informative se manifestant en forme de modal, apportant des détails sur le film, une description, la durée, la date de création, etc...</p>
                 <img class="section__image" src="../assets/img/filmatics/modal.jpg" alt="Image des fiches de films Filmatics">
-                <!--<a class="section__link section__link--bottom" href="">Voir le site</a>-->
             </div>
         </section>
+        <footer class="section section--counter section--footer">
+            <div class="section__wrapper">
+                <nav class="section__nav">
+                    <a class="section__link section__link--previous" href="../nextgen/index.php">Projet précédent</a>
+                    <a class="section__link section__link--next" href="../spotnride/index.php">Projet suivant</a>
+                </nav>
+                <?php include '../inc/social.php' ?>
+            </div>
+        </footer>
         <?php include '../inc/modal.php'; ?>
         <script src="../assets/js/global.js"></script>
         <script src="../assets/js/project.js"></script>

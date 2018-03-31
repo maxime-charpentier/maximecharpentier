@@ -1,23 +1,26 @@
 /*
-Social link hover
+Project link hover
  */
 
-var sectionLink = document.querySelector('.section__link');
+var sectionLink = document.querySelectorAll('.section__link');
 
-sectionLink.addEventListener('mouseover', function () {
-    if (window.innerWidth > 1025) {
-        sectionLink.style.transition = '3s ease';
-        sectionLink.classList.add('section__link--appear');
-        setTimeout(function() {
-            sectionLink.classList.add('section__link--disappear');
-        }, 300);
-        sectionLink.style.transition = '0s';
-        setTimeout(function() {
-            sectionLink.classList.remove('section__link--appear');
-            sectionLink.classList.remove('section__link--disappear');
-        }, 700);
-    }
-});
+for (var i = 0; i < sectionLink.length; i++) {
+    sectionLink[i].addEventListener('mouseover', function () {
+        var element = this;
+        if (window.innerWidth > 1025) {
+            element.style.transition = '3s ease';
+            element.classList.add('section__link--appear');
+            setTimeout(function() {
+                element.classList.add('section__link--disappear');
+            }, 300);
+            element.style.transition = '0s';
+            setTimeout(function() {
+                element.classList.remove('section__link--appear');
+                element.classList.remove('section__link--disappear');
+            }, 700);
+        }
+    });
+}
 
 var sectionButton = document.querySelectorAll('.section__button');
 var section = document.querySelectorAll('.section--counter');

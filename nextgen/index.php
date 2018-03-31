@@ -18,10 +18,19 @@
                 <h2 class="section__name">NextGen</h2>
                 <p class="section__text">Ce projet consistait à intégrer une maquette desktop d'un site d'agence type, de manière responsive.</p>
                 <a class="section__link" href="">Voir le site</a>
-                <img class="section__image" src="../assets/img/nextgen/desktop.jpg" alt="Image du site actuel Nespresso">
+                <img class="section__image" src="../assets/img/nextgen/nextgen_desktop.jpg" alt="Image du site actuel Nespresso">
                 <a class="section__link section__link--bottom" href="">Voir le site</a>
             </div>
         </section>
+        <footer class="section section--counter section--footer">
+            <div class="section__wrapper">
+                <nav class="section__nav">
+                    <a class="section__link section__link--previous" href="../nespresso/index.php">Projet précédent</a>
+                    <a class="section__link section__link--next" href="../filmatics/index.php">Projet suivant</a>
+                </nav>
+                <?php include '../inc/social.php' ?>
+            </div>
+        </footer>
         <?php include '../inc/modal.php'; ?>
         <script src="../assets/js/global.js"></script>
         <script src="../assets/js/project.js"></script>
