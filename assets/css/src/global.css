@@ -19,4 +19,54 @@
 .social__icon {
     width: 20px;
     height: 20px;
+    fill: #000;
+    transition: .3s;
+}
+.social__icon:hover {
+    fill: #3167FD;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+.body--projects .social {
+    display: none;
+}
+.modal .social {
+    display: flex;
+}
+.body--projects .social__icon {
+    fill: #E0E0E0;
+}
+.body--projects .social__icon:hover {
+    fill: #3167FD;
+}
+@media (min-width: 1025px) {
+    .works--slider .social {
+        position: fixed;
+        left: 36px;
+        top: calc((50vh + 33px) + 64px);
+        display: flex;
+        flex-direction: column;
+        z-index: 1;
+    }
+    .works--grid .social {
+        display: none;
+    }
+}
+
+@media (min-width: 1284px) {
+    .works--slider .social {
+        left: calc((100vw - 1080px) / 2 - 72px);
+    }
+    .works--grid .social {
+        display: flex;
+        position: absolute;
+        right: calc(100% + 36px);
+        flex-direction: column;
+        width: 52px;
+        margin: 201px 0px 0px 0px;
+    }
 }

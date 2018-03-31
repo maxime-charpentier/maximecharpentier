@@ -124,6 +124,9 @@
                 <img class="section__image" src="../assets/img/nespresso/nespresso_redesign.jpg" alt="Image du site Nespresso redesigné">
             </div>
         </section>
+        <footer class="footer footer--nespresso">
+            <?php include '../inc/social.php'; ?>
+        </footer>
         <?php include '../inc/modal.php'; ?>
         <script src="../assets/js/global.js"></script>
         <?php include '../inc/analytics.php'; ?>

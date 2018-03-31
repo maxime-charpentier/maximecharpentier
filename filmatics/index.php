@@ -17,7 +17,7 @@
                 <p class="section__type">Intégration / JavaScript</p>
                 <h2 class="section__name">Filmatics</h2>
                 <p class="section__text">Réalisation d'un site de streaming de fanfilms gratuit visant à mettre en avant les réalisateurs et leurs créations.</p>
-                <a class="section__link" href="">Voir le site</a>
+                <!--<a class="section__link" href="">Voir le site</a>-->
             </div>
         </section>
         <section class="section section--summary">
@@ -98,7 +98,7 @@
                 <h3 class="section__title">Modal</h3>
                 <p class="section__text">Afin de mettre en avant les auteurs et leur créations, nous avons réalisé un fiche informative se manifestant en forme de modal, apportant des détails sur le film, une description, la durée, la date de création, etc...</p>
                 <img class="section__image" src="../assets/img/filmatics/modal.jpg" alt="Image des fiches de films Filmatics">
-                <a class="section__link section__link--bottom" href="">Voir le site</a>
+                <!--<a class="section__link section__link--bottom" href="">Voir le site</a>-->
             </div>
         </section>
         <?php include '../inc/modal.php'; ?>

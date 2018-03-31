@@ -24,6 +24,7 @@
                         </svg>
                     </button>
                 </div>
+                <?php include 'inc/social.php'; ?>
                 <div class="works__container">
                     <article class="work" role="article" itemscope itemtype="http://schema.org/BlogPosting">
                         <a class="work__thumbnail" href="filmatics/index.php" rel="bookmark" itemprop="url" role="link"></a>

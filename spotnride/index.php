@@ -17,7 +17,7 @@
                 <p class="section__type">Intégration / Mobile design</p>
                 <h2 class="section__name">SpotnRide</h2>
                 <p class="section__text">Réalisation d'une landing page pour un concept d'application mobile : SpotnRide. Une application permettant aux amateurs de sport de glisse de rechercher, trouver et partager des spots à rider en toute simplicité.</p>
-                <a class="section__link" href="">Voir le site</a>
+                <!--<a class="section__link" href="">Voir le site</a>-->
             </div>
         </section>
         <section class="section section--summary">
@@ -86,7 +86,7 @@
                 <h3 class="section__title">Landing page</h3>
                 <p class="section__text">Ce projet à été réalisé en groupe de 5 dans le cadre d'une semaine intensive Intégration à HETIC. Nous avions eu les consignes le lundi, et nous devions présenter notre projet le vendredi matin. Nous avions donc quatres jours pour réaliser une landing page sur un concept de notre choix. Le thème à respecté était "urbain mais classe", ce qui nous à diriger vers ce projet d'application mobile pour les riders.</p>
                 <img class="section__image section__image--shadow" src="../assets/img/spotnride/sketch.jpg" alt="Image des fiches de films spotnride">
-                <a class="section__link section__link--bottom" href="">Voir le site</a>
+                <!--<a class="section__link section__link--bottom" href="">Voir le site</a>-->
             </div>
         </section>
         <?php include '../inc/modal.php'; ?>

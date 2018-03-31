@@ -285,6 +285,9 @@
     right: 100%;
     display: block;
 }
+.footer--nespresso {
+    background-color: var(--colorSecondaryTwo);
+}
 @media (min-width: 1025px) {
     .section__subsection {
         display: flex;

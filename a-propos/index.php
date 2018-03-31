@@ -17,28 +17,7 @@
                     <div class="about__line"></div>
                 </div>
                 <h3 class="about__title" role="heading">Nice to<br>meet <span class="about__title__underline">you.</span></h3>
-                <ul class="social">
-                    <li class="social__item">
-                        <a class="social__link" href="mailto:maximecharpentier0@gmail.com" rel="nofollow" role="link">
-                            <img class="social__icon" src="../assets/img/mail.svg" alt="Logo de l'e-mail de Maxime Charpentier">
-                        </a>
-                    </li>
-                    <li class="social__item">
-                        <a class="social__link" href="https://www.linkedin.com/in/maximecharpentier" rel="nofollow" target="_blank" role="link">
-                            <img class="social__icon" src="../assets/img/linkedin.svg" alt="Logo du Linkedin de Maxime Charpentier">
-                        </a>
-                    </li>
-                    <li class="social__item">
-                        <a class="social__link" href="https://github.com/maxime-charpentier" rel="nofollow" target="_blank" role="link">
-                            <img class="social__icon" src="../assets/img/github.svg" alt="Logo du Github de Maxime Charpentier">
-                        </a>
-                    </li>
-                    <li class="social__item">
-                        <a class="social__link" href="https://twitter.com/" rel="nofollow" target="_blank" role="link">
-                            <img class="social__icon" src="../assets/img/twitter.svg" alt="Logo du Twitter de Maxime Charpentier">
-                        </a>
-                    </li>
-                </ul>
+                <?php include '../inc/social.php'; ?>
                 <div class="about__container">
                     <img class="about__image" src="../assets/img/profil.jpg" alt="Picture of Maxime Charpentier"/>
                     <div class="about__content">
