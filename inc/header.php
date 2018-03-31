@@ -6,7 +6,7 @@
                 <button class="header__button"></button>
                 <ul class="menu">
                     <li class="menu__item">
-                        <a class="menu__link" href="index.php">Projets</a>
+                        <a class="menu__link" href="../index.php">Projets</a>
                     </li>
                     <!--
                     <li class="menu__item">

@@ -252,9 +252,8 @@
     box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, .06);
 }
 .section__image--spotnride {
-    max-width: 400px;
+    max-width: 350px;
     margin: 56px auto 48px auto;
-    box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, .06);
 }
 .section__image--noshadow {
     box-shadow: none;
@@ -285,4 +284,39 @@
     top: 9px;
     right: 100%;
     display: block;
+}
+@media (min-width: 1025px) {
+    .section__subsection {
+        display: flex;
+    }
+    .section__content {
+        width: 50%;
+    }
+    .section__content--2 {
+        width: 28%;
+        margin-top: 72px;
+        order: 1;
+    }
+    .section__content--4 {
+        width: 40%;
+        margin-top: 72px;
+        order: 1;
+    }
+    .section__image--spotnride {
+        width: 25%;
+        height: 100%;
+        margin: 0px;
+    }
+    .section__image--1 {
+        margin: 64px 0px 0px 160px;
+    }
+    .section__image--2 {
+        margin: 0px 64px 0px 160px;
+    }
+    .section__image--3 {
+        margin: 64px 0px 0px 160px;
+    }
+    .section__image--4 {
+        margin: 0px 64px 0px 160px;
+    }
 }
