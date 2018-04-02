@@ -27,47 +27,47 @@
                 <?php include 'inc/social.php'; ?>
                 <div class="works__container">
                     <article class="work" role="article" itemscope itemtype="http://schema.org/BlogPosting">
-                        <a class="work__thumbnail" href="filmatics/index.php" rel="bookmark" itemprop="url" role="link"></a>
+                        <a class="work__thumbnail" href="filmatics" rel="bookmark" itemprop="url" role="link"></a>
                         <div class="work__content" role="contentinfo">
                             <p class="work__type">Intégration / JavaScript</p>
                             <h2 class="work__title" itemprop="headline" role="heading">
-                                <a class="work__link" href="filmatics/index.php" rel="bookmark" itemprop="url" role="link">Filmatics</a>
+                                <a class="work__link" href="filmatics" rel="bookmark" itemprop="url" role="link">Filmatics</a>
                             </h2>
                             <p class="work__description">Réalisation d'un site de streaming de fanfilms gratuit visant à mettre en avant les réalisateurs et leurs créations.</p>
-                            <a class="work__button" href="filmatics/index.php" rel="bookmark" itemprop="url" role="link">explorer <b class="work__button__bold">le project</b></a>
+                            <a class="work__button" href="filmatics" rel="bookmark" itemprop="url" role="link">explorer <b class="work__button__bold">le project</b></a>
                         </div>
                     </article>
                     <article class="work" role="article" itemscope itemtype="http://schema.org/BlogPosting">
-                        <a class="work__thumbnail" href="spotnride/index.php" rel="bookmark" itemprop="url" role="link"></a>
+                        <a class="work__thumbnail" href="spotnride" rel="bookmark" itemprop="url" role="link"></a>
                         <div class="work__content" role="contentinfo">
                             <p class="work__type">Intégration / Design</p>
                             <h2 class="work__title" itemprop="headline" role="heading">
-                                <a class="work__link" href="spotnride/index.php" rel="bookmark" itemprop="url" role="link">SpotnRide</a>
+                                <a class="work__link" href="spotnride" rel="bookmark" itemprop="url" role="link">SpotnRide</a>
                             </h2>
                             <p class="work__description">Réalisation d'une landing page pour un concept d'application mobile : SpotnRide. Une application permettant aux amateurs de sport de glisse de rechercher, trouver et partager des spots à rider en toute simplicité.</p>
-                            <a class="work__button" href="spotnride/index.php" rel="bookmark" rel="bookmark" itemprop="url" role="link">explorer<b class="work__button__bold">le project</b></a>
+                            <a class="work__button" href="spotnride" rel="bookmark" rel="bookmark" itemprop="url" role="link">explorer<b class="work__button__bold">le project</b></a>
                         </div>
                     </article>
                     <article class="work" role="article" itemscope itemtype="http://schema.org/BlogPosting">
-                        <a class="work__thumbnail" href="nespresso/index.php" rel="bookmark" itemprop="url" role="link"></a>
+                        <a class="work__thumbnail" href="nespresso" rel="bookmark" itemprop="url" role="link"></a>
                         <div class="work__content" role="contentinfo">
                             <p class="work__type">Redesign</p>
                             <h2 class="work__title" itemprop="headline" role="heading">
-                                <a class="work__link" href="nespresso/index.php" rel="bookmark" itemprop="url" role="link">Nespresso</a>
+                                <a class="work__link" href="nespresso" rel="bookmark" itemprop="url" role="link">Nespresso</a>
                             </h2>
                             <p class="work__description">Un redesign complet de la page d'accueil du site de Nespresso, visant à améliorer l'expérience utilisateur tout en respectant les valeurs et l'identité de la marque : minimaliste et élégant.</p>
-                            <a class="work__button" href="nespresso/index.php" rel="bookmark" rel="bookmark" itemprop="url" role="link">explorer <b class="work__button__bold">le project</b></a>
+                            <a class="work__button" href="nespresso" rel="bookmark" rel="bookmark" itemprop="url" role="link">explorer <b class="work__button__bold">le project</b></a>
                         </div>
                     </article>
                     <article class="work" role="article" itemscope itemtype="http://schema.org/BlogPosting">
-                        <a class="work__thumbnail" href="nextgen/index.php" rel="bookmark" itemprop="url" role="link"></a>
+                        <a class="work__thumbnail" href="nextgen" rel="bookmark" itemprop="url" role="link"></a>
                         <div class="work__content" role="contentinfo">
                             <p class="work__type">Intégration</p>
                             <h2 class="work__title" itemprop="headline" role="heading">
-                                <a class="work__link" href="nextgen/index.php" rel="bookmark" itemprop="url" role="link">NextGen</a>
+                                <a class="work__link" href="nextgen" rel="bookmark" itemprop="url" role="link">NextGen</a>
                             </h2>
                             <p class="work__description">Intégration entièrement responsive d'un site d'agence type.</p>
-                            <a class="work__button" href="nextgen/index.php" rel="bookmark" itemprop="url" role="link">explore <b class="work__button__bold">project</b></a>
+                            <a class="work__button" href="nextgen" rel="bookmark" itemprop="url" role="link">explore <b class="work__button__bold">project</b></a>
                         </div>
                     </article>
                 </div>

@@ -91,8 +91,8 @@
         <footer class="section section--counter section--footer">
             <div class="section__wrapper">
                 <nav class="section__nav">
-                    <a class="section__link section__link--previous" href="../filmatics/index.php">Projet précédent</a>
-                    <a class="section__link section__link--next" href="../nespresso/index.php">Projet suivant</a>
+                    <a class="section__link section__link--previous" href="../filmatics">Projet précédent</a>
+                    <a class="section__link section__link--next" href="../nespresso">Projet suivant</a>
                 </nav>
                 <?php include '../inc/social.php' ?>
             </div>

@@ -127,8 +127,8 @@
         <footer class="section section--counter section--footer">
             <div class="section__wrapper">
                 <nav class="section__nav">
-                    <a class="section__link section__link--previous" href="../spotnride/index.php">Projet précédent</a>
-                    <a class="section__link section__link--next" href="../nextgen/index.php">Projet suivant</a>
+                    <a class="section__link section__link--previous" href="../spotnride">Projet précédent</a>
+                    <a class="section__link section__link--next" href="../nextgen">Projet suivant</a>
                 </nav>
                 <?php include '../inc/social.php' ?>
             </div>
