@@ -17,7 +17,7 @@
                 <p class="section__type">Intégration</p>
                 <h2 class="section__name">NextGen</h2>
                 <p class="section__text">Ce projet consistait à intégrer une maquette desktop d'un site d'agence type, de manière responsive.</p>
-                <a class="section__link" href="">Voir le site</a>
+                <a class="section__link" href="nextgen/demo/">Voir le site</a>
                 <img class="section__image" src="../assets/img/nextgen/nextgen_desktop.jpg" alt="Image du site actuel Nespresso">
                 <a class="section__link section__link--bottom" href="">Voir le site</a>
             </div>
