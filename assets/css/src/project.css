@@ -292,18 +292,30 @@
     align-items: center;
 }
 .section__link--previous {
+    font-size: 14px;
     margin: 0px;
-    width: 135px;
+    width: 105px;
 }
 .section__link--previous::before {
     content: none;
 }
 .section__link--next {
+    font-size: 14px;
     margin: 0px;
-    width: 112px;
+    width: 88px;
 }
 .section__link--next::before {
     content: none;
+}
+@media (min-width: 360px) {
+    .section__link--previous {
+        font-size: 18px;
+        width: 135px;
+    }
+    .section__link--next {
+        font-size: 18px;
+        width: 112px;
+    }
 }
 @media (min-width: 575px) {
     .section__nav {
