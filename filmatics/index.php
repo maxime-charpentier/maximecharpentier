@@ -47,7 +47,7 @@
         <section class="section section--counter">
             <div class="section__wrapper">
                 <h3 class="section__title">Contexte</h3>
-                <p class="section__text">Ce projet à été réalisé en groupe de 5 dans le cadre d'une semaine intensive JavaScript à HETIC. Nous avions eu les consignes le lundi, et nous devions présenter notre projet le vendredi matin. Nous avions donc quatres jours pour réaliser un site de streaming répondant à certains critères :</p>
+                <p class="section__text">Ce projet à été réalisé en groupe de 5 dans le cadre d'une semaine intensive JavaScript à HETIC. Nous avions eu les consignes le lundi, et nous devions présenter notre projet le vendredi matin. Nous avions donc quatre jours pour réaliser un site de streaming répondant à certains critères :</p>
                 <ul class="section__list">
                     <li class="section__item section__item--text">Créer un player avec un design personnalisé</li>
                     <li class="section__item section__item--text">Générer dynamiquement l'affichage des films à partir d'un fichier JavaScript contenant les données</li>
@@ -59,14 +59,14 @@
         <section class="section section--counter">
             <div class="section__wrapper">
                 <h3 class="section__title">Design</h3>
-                <p class="section__text">Nous avions opté pour un design simple et sombre, visant à mettre en avant le contenu et immersé l'utilisateur.</p>
+                <p class="section__text">Nous avions opté pour un design sombre et épuré, visant à mettre en avant le contenu et immergé l'utilisateur.</p>
                 <img class="section__image" src="../assets/img/filmatics/sketch.jpg" alt="Image du site Filmatics">
             </div>
         </section>
         <section class="section section--counter">
             <div class="section__wrapper">
                 <h3 class="section__title">Slider</h3>
-                <p class="section__text">Nous avons opté pour un slider afin de mettre en avant les fanfilms les plus populaires de la platform, avec chaque slide représentant l'univers du film qui lui est dédié et permettant directement de le visionné.</p>
+                <p class="section__text">Un slider permet de mettre en avant les fanfilms les plus populaires de la platforme, avec chaque slide représentant l'univers du film qui lui est dédié et permettant directement de le visionner.</p>
                 <video class="section__image" src="../assets/img/filmatics/slider.mp4" autoplay="true" loop muted></video>
             </div>
         </section>
@@ -89,14 +89,14 @@
         <section class="section section--counter">
             <div class="section__wrapper">
                 <h3 class="section__title">Filtres</h3>
-                <p class="section__text">Nous avons développé un système de filtre permettant de d'afficher la liste de films en fonction de leur catégories. Les films sont générés dynamiquement via un fichiers JavaScript contenant toutes les informations concernant les films.</p>
+                <p class="section__text">Nous avons également développé un système de filtre permettant d'afficher la liste de films en fonction de leur catégorie. Les films sont générés dynamiquement via un fichier JavaScript contenant toutes les informations concernant les films.</p>
                 <video class="section__image" src="../assets/img/filmatics/filter.mp4" autoplay="true" loop muted></video>
             </div>
         </section>
         <section class="section section--counter">
             <div class="section__wrapper">
                 <h3 class="section__title">Modal</h3>
-                <p class="section__text">Afin de mettre en avant les auteurs et leur créations, nous avons réalisé un fiche informative se manifestant en forme de modal, apportant des détails sur le film, une description, la durée, la date de création, etc...</p>
+                <p class="section__text">Afin de mettre en avant les auteurs et leurs créations, nous avons réalisé une fenêtre modale informative, apportant à l'utilisateur des détails sur le film : une description, la durée, la date de création, etc...</p>
                 <img class="section__image" src="../assets/img/filmatics/modal.jpg" alt="Image des fiches de films Filmatics">
             </div>
         </section>
