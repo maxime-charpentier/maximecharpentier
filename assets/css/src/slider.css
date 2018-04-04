@@ -269,6 +269,8 @@
         flex-direction: column;
     }
     .works--slider .nav__wrapper::before {
+        left: 50%;
+        margin-left: -1px;
         width: 2px;
         height: 100%;
     }

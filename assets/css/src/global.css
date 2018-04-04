@@ -68,8 +68,9 @@
         display: flex;
         position: absolute;
         right: calc(100% + 36px);
+        top: calc(50vh - 25px);
         flex-direction: column;
         width: 52px;
-        margin: 201px 0px 0px 0px;
+        margin: 0px;
     }
 }

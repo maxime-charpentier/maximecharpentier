@@ -36,3 +36,6 @@ body {
         overflow: scroll;
     }
 }
+.body__wrapper {
+    overflow: hidden;
+}
