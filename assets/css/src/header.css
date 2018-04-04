@@ -123,13 +123,16 @@
         text-decoration: none;
         transition: .3s;
     }
+    .body--projects .menu__item:first-child .menu__link {
+        color: var(--colorAccentOne);
+    }
+    .body--about .menu__item:last-child .menu__link {
+        color: var(--colorAccentOne);
+    }
     .menu__link--project {
         color: var(--colorSecondaryOne);
     }
     .menu__link:hover {
-        color: var(--colorAccentOne);
-    }
-    .menu__link:focus {
         color: var(--colorAccentOne);
     }
 }
