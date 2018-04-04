@@ -11,6 +11,7 @@ var headerButton  = document.querySelector('.header__button');
 var menuLink      = document.querySelectorAll('.menu__link');
 var modal         = document.querySelector('.modal');
 var modalLink     = document.querySelectorAll('.modal__link');
+var works          = document.querySelector('works');
 
 /*
 Allow burger menu to appear on click
@@ -28,7 +29,12 @@ headerButton.addEventListener('click', function () {
                 menuLink[i].classList.add('menu__link--project');
             }
         }
+        body.style.overflow = 'scroll';
+        if (works.classList.contains('works--slider')) {
+            body.style.overflow = 'hidden';
+        }
     } else {
+        body.style.overflow = 'hidden';
         headerButton.classList.add('header__button--active');
         modal.classList.add('modal--active');
         if (body.classList.contains('body--project')) {
